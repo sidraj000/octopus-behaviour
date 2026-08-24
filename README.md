@@ -141,8 +141,22 @@ forgot its original domain (recall 0.985 → 0.903).
 
 - **Code** (`src/`, `ui/`, `paper/make_figures.py`) — Apache-2.0, see `LICENSE`.
 - **Data and labels** (`data/`) — CC-BY-4.0, see `LICENSE-DATA`. Please cite the paper.
-- **Paper text and figures** (`paper/`) — © the authors; the IEEE copyright applies to the
-  published version.
+- **Paper text and figures** (`paper/`) — © the authors. The PDF here is the **preprint**:
+  it carries no IEEE footer and no DOI, and no copyright has been transferred yet.
+
+**On acceptance, this directory must change.** Under the IEEE copyright agreement the Version of
+Record — the IEEE-formatted PDF with the committee's footer and the DOI — may not be posted online
+at all, and the *accepted* version is permitted only on an author's personal or employer site, an
+institutional or funder repository, arXiv or TechRxiv. GitHub is none of those, and IEEE's
+conference policy says accepted papers "must be removed from any other third-party servers." So on
+acceptance, replace this PDF with the full citation plus the DOI (optionally putting the accepted
+version on arXiv/TechRxiv and linking to it), and add:
+
+> © 2026 IEEE. Personal use of this material is permitted. Permission from IEEE must be obtained
+> for all other uses, in any current or future media, including reprinting/republishing this
+> material for advertising or promotional purposes, creating new collective works, for resale or
+> redistribution to servers or lists, or reuse of any copyrighted component of this work in other
+> works.
 
 `paper/IEEEtran.cls` is redistributed under its own IEEE licence and is not covered by the above.
 
