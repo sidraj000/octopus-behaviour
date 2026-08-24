@@ -1,7 +1,9 @@
 # Octopus behaviour pipeline
 
-Code, labels and paper for **"From Footage to Ethogram: A Deployable Pipeline for Continuous
+Code and labels for **"From Footage to Ethogram: A Deployable Pipeline for Continuous
 Behavioural Monitoring of a Captive Octopus"** (OCEANS 2026 Monterey).
+
+The paper itself is not distributed here - see **Paper** below.
 
 A cascade of small local models turns raw aquarium video into a behavioural time series. A
 235B-parameter vision–language model is used only as an **offline teacher**; nothing large runs at
@@ -9,7 +11,6 @@ inference. On 892 h of footage from one adult *Octopus vulgaris*, cheap gates di
 without a full decode and only ~60 h is ever decoded — because 42.7% of the clips that survive
 still contain no animal.
 
-    paper/    LaTeX source, figures and the compiled PDF
     src/      the pipeline: extraction, teacher labelling, the three students, benchmarks
     ui/       labelling and review apps (FastAPI)
     data/     the ethogram and caption labels  ← in this repo
@@ -71,9 +72,9 @@ Enforced in code, not documented as intentions, because the pipeline broke each 
 
 1. **Splits are by source video, never by clip.** A held-out clip from a training video is not held
    out. `src/validate_ethogram_dataset.py` asserts it and exits non-zero.
-2. **Frozen evaluation sets are never regenerated to suit a result.** Figure sources are frozen
-   under `paper/assets/frozen/`; reading a scratch directory live silently changed a published
-   figure once.
+2. **Frozen evaluation sets are never regenerated to suit a result.** Figure sources are pinned
+   alongside the paper rather than read live; pointing a figure at a scratch directory silently
+   changed a published figure once.
 3. **Negatives of different kinds are never pooled** — reflections, empty tank and infrared fail
    differently and averaging them hides which.
 4. **Holdout videos are excluded from *every* training source**, not merely the final stage.
@@ -92,8 +93,6 @@ cp src/.env.example .env      # OPENROUTER_API_KEY for the teacher; OCTOPUS_USER
 ./venv/bin/python3 src/train_ethogram.py --version v1              # the rung ladder
 ./venv/bin/python3 src/train_ethogram_fusion.py                    # the 5-member ensemble
 ./venv/bin/python3 src/benchmarks.py --tag mytag                   # frozen suites
-
-cd paper && ../venv/bin/python3 make_figures.py && pdflatex octopus_pipeline_oceans2026.tex
 ```
 
 Apple Silicon: CLIP and the students run on MPS; **GroundingDINO must run on CPU** (deformable
@@ -139,26 +138,28 @@ forgot its original domain (recall 0.985 → 0.903).
 
 ## Licence
 
-- **Code** (`src/`, `ui/`, `paper/make_figures.py`) — Apache-2.0, see `LICENSE`.
+- **Code** (`src/`, `ui/`) — Apache-2.0, see `LICENSE`.
 - **Data and labels** (`data/`) — CC-BY-4.0, see `LICENSE-DATA`. Please cite the paper.
-- **Paper text and figures** (`paper/`) — © the authors. The PDF here is the **preprint**:
-  it carries no IEEE footer and no DOI, and no copyright has been transferred yet.
+(The paper is not in this repository; see **Paper** above.)
 
-**On acceptance, this directory must change.** Under the IEEE copyright agreement the Version of
-Record — the IEEE-formatted PDF with the committee's footer and the DOI — may not be posted online
-at all, and the *accepted* version is permitted only on an author's personal or employer site, an
-institutional or funder repository, arXiv or TechRxiv. GitHub is none of those, and IEEE's
-conference policy says accepted papers "must be removed from any other third-party servers." So on
-acceptance, replace this PDF with the full citation plus the DOI (optionally putting the accepted
-version on arXiv/TechRxiv and linking to it), and add:
+## Paper
 
-> © 2026 IEEE. Personal use of this material is permitted. Permission from IEEE must be obtained
-> for all other uses, in any current or future media, including reprinting/republishing this
-> material for advertising or promotional purposes, creating new collective works, for resale or
-> redistribution to servers or lists, or reuse of any copyrighted component of this work in other
-> works.
+The LaTeX source and PDF are deliberately **not** published here. Under the IEEE copyright
+agreement the Version of Record may not be posted online at all, and the accepted version is
+permitted only on an author's personal or employer site, an institutional or funder repository,
+arXiv or TechRxiv - and IEEE's conference policy states that accepted papers "must be removed from
+any other third-party servers." GitHub is a third-party server, so hosting it here would have to be
+undone at acceptance. It is simpler not to start.
 
-`paper/IEEEtran.cls` is redistributed under its own IEEE licence and is not covered by the above.
+Please cite:
+
+    S. Raj, K. M. Patel, H. Kumar, S. Pachnanda, H. P. Singh, H. Burgsteiner,
+    and W. Slany, "From Footage to Ethogram: A Deployable Pipeline for
+    Continuous Behavioural Monitoring of a Captive Octopus," in Proc. OCEANS
+    2026 Monterey, 2026.
+
+`docs/PAPER_NOTES.md` is the full experimental record behind it, including the failed experiments
+and the retracted conclusions, and every number the paper reports is reproducible from `src/`.
 
 ## Ethics
 
