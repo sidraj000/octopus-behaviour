@@ -1,0 +1,1582 @@
+{
+ "2026-02-23/150003/Right_Top_0298-0318.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 3.6,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:21:28"
+ },
+ "2026-02-24/143002/Right_Back_1445-1465.mp4": {
+  "present": true,
+  "ethogram": "Resting / stationary",
+  "unsure": false,
+  "note": "",
+  "seconds": 5.1,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:21:34"
+ },
+ "2026-02-23/230004/Right_Top_1340-1360.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 2.4,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:21:36"
+ },
+ "2026-02-22/170003/Right_Top_0837-0857.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 3.5,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:21:40"
+ },
+ "2026-02-24/210004/Right_Top_1161-1181.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 1.8,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:21:42"
+ },
+ "2026-02-24/163003/Right_Top_0500-0520.mp4": {
+  "present": true,
+  "ethogram": "Exploration / manipulation",
+  "unsure": false,
+  "note": "",
+  "seconds": 3.1,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:21:45"
+ },
+ "2026-02-24/163003/Right_Top_0220-0240.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 2.4,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:21:48"
+ },
+ "2026-02-22/160003/Right_Top_0190-0210.mp4": {
+  "present": true,
+  "ethogram": "Exploration / manipulation",
+  "unsure": false,
+  "note": "",
+  "seconds": 7.6,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:21:55"
+ },
+ "2026-02-22/200003/Right_Top_1029-1049.mp4": {
+  "present": true,
+  "ethogram": "Resting / stationary",
+  "unsure": false,
+  "note": "",
+  "seconds": 3.8,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:21:59"
+ },
+ "2026-02-24/143002/Right_Top_1540-1560.mp4": {
+  "present": true,
+  "ethogram": "Resting / stationary",
+  "unsure": false,
+  "note": "",
+  "seconds": 1.9,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:22:11"
+ },
+ "2026-02-23/220004/Right_Top_0220-0240.mp4": {
+  "present": true,
+  "ethogram": "Resting / stationary",
+  "unsure": false,
+  "note": "",
+  "seconds": 1.6,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:22:13"
+ },
+ "2026-02-20/172422/Right_Left_1750-1770.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 2.3,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:22:16"
+ },
+ "2026-02-22/143002/Right_Top_1520-1540.mp4": {
+  "present": true,
+  "ethogram": "Exploration / manipulation",
+  "unsure": false,
+  "note": "",
+  "seconds": 2.4,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:22:18"
+ },
+ "2026-02-22/110002/Right_Top_1255-1275.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 6.2,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:22:25"
+ },
+ "2026-02-22/120002/Right_Top_1068-1088.mp4": {
+  "present": true,
+  "ethogram": "Resting / stationary",
+  "unsure": false,
+  "note": "",
+  "seconds": 3.5,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:22:28"
+ },
+ "2026-02-23/180003/Right_Top_0367-0387.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 7.2,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:22:36"
+ },
+ "2026-02-23/193004/Right_Top_1520-1540.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 2.2,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:22:38"
+ },
+ "2026-02-24/183003/Right_Top_0000-0020.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 9.0,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:22:47"
+ },
+ "2026-02-20/135421/Right_Left_1257-1277.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 1.7,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:22:49"
+ },
+ "2026-02-21/233004/Right_Top_0134-0154.mp4": {
+  "present": true,
+  "ethogram": "Resting / stationary",
+  "unsure": false,
+  "note": "",
+  "seconds": 5.7,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:22:55"
+ },
+ "2026-02-21/213003/Right_Left_1042-1062.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 2.0,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:22:57"
+ },
+ "2026-02-24/163003/Right_Top_0763-0783.mp4": {
+  "present": true,
+  "ethogram": "Exploration / manipulation",
+  "unsure": false,
+  "note": "",
+  "seconds": 9.9,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:23:07"
+ },
+ "2026-02-22/073001/Right_Top_0627-0647.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 3.6,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:23:11"
+ },
+ "2026-02-21/163003/Right_Top_0673-0693.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 1.4,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:23:12"
+ },
+ "2026-02-24/093001/Right_Top_1280-1300.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 1.4,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:23:14"
+ },
+ "2026-02-22/133001/Right_Right_1573-1593.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 2.1,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:23:16"
+ },
+ "2026-02-23/233004/Right_Top_0760-0780.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 2.5,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:23:19"
+ },
+ "2026-02-24/020000/Right_Top_1600-1620.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 1.0,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:23:20"
+ },
+ "2026-02-24/100002/Right_Top_0820-0840.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 1.3,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:23:22"
+ },
+ "2026-02-24/060001/Right_Top_0600-0620.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 4.1,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:23:26"
+ },
+ "2026-02-21/180003/Right_Top_0300-0320.mp4": {
+  "present": true,
+  "ethogram": "Resting / stationary",
+  "unsure": false,
+  "note": "",
+  "seconds": 3.2,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:23:29"
+ },
+ "2026-02-24/193003/Right_Top_0820-0840.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 1.7,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:23:31"
+ },
+ "2026-02-21/190003/Right_Top_0772-0792.mp4": {
+  "present": true,
+  "ethogram": "Resting / stationary",
+  "unsure": false,
+  "note": "",
+  "seconds": 6.5,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:23:38"
+ },
+ "2026-02-25/090002/Right_Back_0799-0819.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 4.8,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:23:43"
+ },
+ "2026-02-24/110002/Right_Top_1420-1440.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 3.9,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:23:47"
+ },
+ "2026-02-22/190003/Right_Top_0089-0109.mp4": {
+  "present": true,
+  "ethogram": "Resting / stationary",
+  "unsure": false,
+  "note": "",
+  "seconds": 3.7,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:23:51"
+ },
+ "2026-02-25/160002/Right_Front_1377-1397.mp4": {
+  "present": true,
+  "ethogram": "Resting / stationary",
+  "unsure": false,
+  "note": "",
+  "seconds": 3.8,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:23:55"
+ },
+ "2026-02-22/100001/Right_Top_0300-0320.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 3.4,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:23:58"
+ },
+ "2026-02-20/172422/Right_Top_1408-1428.mp4": {
+  "present": true,
+  "ethogram": "Exploration / manipulation",
+  "unsure": false,
+  "note": "",
+  "seconds": 10.5,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:24:09"
+ },
+ "2026-02-21/143002/Right_Top_0757-0777.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 1.9,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:24:11"
+ },
+ "2026-02-24/040000/Right_Top_0500-0520.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 2.2,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:24:13"
+ },
+ "2026-02-24/090001/Right_Top_0780-0800.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 1.0,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:24:14"
+ },
+ "2026-02-22/080001/Right_Top_0876-0896.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 1.5,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:24:16"
+ },
+ "2026-02-24/020000/Right_Top_1440-1460.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 1.6,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:24:18"
+ },
+ "2026-02-21/160003/Right_Top_0482-0502.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 1.4,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:24:19"
+ },
+ "2026-02-24/180003/Right_Top_0300-0320.mp4": {
+  "present": true,
+  "ethogram": "Exploration / manipulation",
+  "unsure": false,
+  "note": "",
+  "seconds": 10.5,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:24:30"
+ },
+ "2026-02-20/162421/Right_Top_1610-1630.mp4": {
+  "present": true,
+  "ethogram": "Resting / stationary",
+  "unsure": false,
+  "note": "",
+  "seconds": 5.3,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:24:36"
+ },
+ "2026-02-23/223004/Right_Top_1300-1320.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 4.6,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:24:40"
+ },
+ "2026-02-21/230004/Right_Top_0727-0747.mp4": {
+  "present": true,
+  "ethogram": "Resting / stationary",
+  "unsure": false,
+  "note": "",
+  "seconds": 2.9,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:24:43"
+ },
+ "2026-02-23/200004/Right_Top_1000-1020.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 4.7,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:24:48"
+ },
+ "2026-02-22/113002/Right_Back_1540-1560.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 1.9,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:24:50"
+ },
+ "2026-02-23/183003/Right_Top_0320-0340.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 3.1,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:24:54"
+ },
+ "2026-02-24/210004/Right_Top_0240-0260.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 1.6,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:24:55"
+ },
+ "2026-02-22/170003/Right_Top_1277-1297.mp4": {
+  "present": true,
+  "ethogram": "Resting / stationary",
+  "unsure": false,
+  "note": "",
+  "seconds": 3.8,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:24:59"
+ },
+ "2026-02-24/120002/Right_Top_1080-1100.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 4.1,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:25:04"
+ },
+ "2026-02-24/173003/Right_Top_0140-0160.mp4": {
+  "present": true,
+  "ethogram": "Swimming / jetting",
+  "unsure": false,
+  "note": "",
+  "seconds": 8.0,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:25:12"
+ },
+ "2026-02-22/160002/Right_Back_1416-1436.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 3.3,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:25:15"
+ },
+ "2026-02-21/140002/Right_Top_0363-0383.mp4": {
+  "present": true,
+  "ethogram": "Exploration / manipulation",
+  "unsure": false,
+  "note": "",
+  "seconds": 2.4,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:25:18"
+ },
+ "2026-02-22/080001/Right_Right_1201-1221.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 1.9,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:25:20"
+ },
+ "2026-02-25/143002/Right_Front_0696-0716.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 1.4,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:25:21"
+ },
+ "2026-02-24/233003/Right_Front_0954-0974.mp4": {
+  "present": true,
+  "ethogram": "Resting / stationary",
+  "unsure": false,
+  "note": "",
+  "seconds": 5.8,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:25:27"
+ },
+ "2026-02-23/193004/Right_Top_1500-1520.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 2.3,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:25:30"
+ },
+ "2026-02-24/063001/Right_Top_0160-0180.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 1.4,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:25:31"
+ },
+ "2026-02-24/190003/Right_Top_1251-1271.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 1.2,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:25:33"
+ },
+ "2026-02-22/153003/Right_Top_1690-1710.mp4": {
+  "present": true,
+  "ethogram": "Exploration / manipulation",
+  "unsure": false,
+  "note": "",
+  "seconds": 2.4,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:25:35"
+ },
+ "2026-02-24/233004/Right_Top_0060-0080.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 2.6,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:25:38"
+ },
+ "2026-02-22/173003/Right_Top_0527-0547.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 1.4,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:25:55"
+ },
+ "2026-02-22/150002/Right_Top_0432-0452.mp4": {
+  "present": true,
+  "ethogram": "Exploration / manipulation",
+  "unsure": false,
+  "note": "",
+  "seconds": 3.2,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:25:59"
+ },
+ "2026-02-23/213004/Right_Top_0080-0100.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 2.2,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:26:01"
+ },
+ "2026-02-23/000000/Right_Top_0240-0260.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 4.6,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:26:06"
+ },
+ "2026-02-22/123001/Right_Left_0390-0410.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 1.9,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:26:08"
+ },
+ "2026-02-24/160003/Right_Top_0840-0860.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 1.1,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:26:09"
+ },
+ "2026-02-24/000000/Right_Top_1300-1320.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 1.2,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:26:11"
+ },
+ "2026-02-22/123002/Right_Top_1060-1080.mp4": {
+  "present": true,
+  "ethogram": "Resting / stationary",
+  "unsure": false,
+  "note": "",
+  "seconds": 2.0,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:26:13"
+ },
+ "2026-02-25/070001/Right_Back_0086-0106.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 1.9,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:26:15"
+ },
+ "2026-02-23/183003/Right_Top_0180-0200.mp4": {
+  "present": true,
+  "ethogram": "Resting / stationary",
+  "unsure": false,
+  "note": "",
+  "seconds": 2.2,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:26:17"
+ },
+ "2026-02-21/180003/Right_Left_0484-0504.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 2.5,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:26:20"
+ },
+ "2026-02-24/213004/Right_Top_1447-1467.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 2.5,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:26:23"
+ },
+ "2026-02-23/210004/Right_Top_0420-0440.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 1.7,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:26:24"
+ },
+ "2026-02-23/060001/Right_Top_1667-1687.mp4": {
+  "present": true,
+  "ethogram": "Resting / stationary",
+  "unsure": false,
+  "note": "",
+  "seconds": 2.8,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:26:27"
+ },
+ "2026-02-21/143002/Right_Top_1657-1677.mp4": {
+  "present": true,
+  "ethogram": "Exploration / manipulation",
+  "unsure": false,
+  "note": "",
+  "seconds": 2.7,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:26:30"
+ },
+ "2026-02-22/083001/Right_Back_0500-0520.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 3.7,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:26:34"
+ },
+ "2026-02-24/150003/Right_Top_1740-1760.mp4": {
+  "present": true,
+  "ethogram": "Exploration / manipulation",
+  "unsure": false,
+  "note": "",
+  "seconds": 3.0,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:26:37"
+ },
+ "2026-02-24/123002/Right_Top_1380-1400.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 6.4,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:26:44"
+ },
+ "2026-02-23/063001/Right_Top_1251-1271.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 4.1,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:26:48"
+ },
+ "2026-02-22/150002/Right_Top_1135-1155.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 3.3,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:26:52"
+ },
+ "2026-02-24/140002/Right_Top_0540-0560.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 1.3,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:26:53"
+ },
+ "2026-02-23/183003/Right_Top_0240-0260.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 1.0,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:26:54"
+ },
+ "2026-02-22/130002/Right_Top_0260-0280.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 2.3,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:26:57"
+ },
+ "2026-02-22/090001/Right_Right_0086-0106.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 1.3,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:26:58"
+ },
+ "2026-02-20/095420/Right_Left_1068-1088.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 0.8,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:26:59"
+ },
+ "2026-02-23/170003/Right_Top_1490-1510.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 1.1,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:27:01"
+ },
+ "2026-02-24/153003/Right_Top_0680-0700.mp4": {
+  "present": true,
+  "ethogram": "Exploration / manipulation",
+  "unsure": false,
+  "note": "",
+  "seconds": 2.3,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:27:03"
+ },
+ "2026-02-24/230004/Right_Top_1383-1403.mp4": {
+  "present": true,
+  "ethogram": "Exploration / manipulation",
+  "unsure": false,
+  "note": "",
+  "seconds": 5.2,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:27:08"
+ },
+ "2026-02-22/103002/Right_Top_0060-0080.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 1.9,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:27:10"
+ },
+ "2026-02-22/123002/Right_Top_0920-0940.mp4": {
+  "present": true,
+  "ethogram": "Resting / stationary",
+  "unsure": false,
+  "note": "",
+  "seconds": 2.3,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:27:13"
+ },
+ "2026-02-23/153003/Right_Top_0120-0140.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 3.6,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:27:17"
+ },
+ "2026-02-20/195422/Right_Left_1601-1621.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 2.4,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:27:19"
+ },
+ "2026-02-23/060001/Right_Top_0947-0967.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 2.4,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:27:22"
+ },
+ "2026-02-21/173003/Right_Top_0231-0251.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 3.2,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:27:25"
+ },
+ "2026-02-24/183003/Right_Back_0064-0084.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 1.9,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:27:27"
+ },
+ "2026-02-22/113002/Right_Top_0600-0620.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 1.1,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:27:28"
+ },
+ "2026-02-23/050001/Right_Top_1529-1549.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 1.4,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:27:30"
+ },
+ "2026-02-22/103002/Right_Top_0720-0740.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 1.1,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:27:31"
+ },
+ "2026-02-21/133002/Right_Top_0958-0978.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 1.8,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:27:33"
+ },
+ "2026-02-21/210004/Right_Top_0070-0090.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 1.8,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:27:35"
+ },
+ "2026-02-24/090001/Right_Top_1600-1620.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 1.3,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:27:37"
+ },
+ "2026-02-23/193004/Right_Top_0040-0060.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 0.9,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:27:38"
+ },
+ "2026-02-21/140002/Right_Top_0483-0503.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 1.7,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:27:39"
+ },
+ "2026-02-24/150003/Right_Top_0060-0080.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 3.0,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:27:43"
+ },
+ "2026-02-21/223003/Right_Left_1502-1522.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 0.9,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:27:44"
+ },
+ "2026-02-24/123002/Right_Top_1240-1260.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 0.8,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:27:45"
+ },
+ "2026-02-24/183003/Right_Top_0080-0100.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 1.0,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:27:46"
+ },
+ "2026-02-24/180003/Right_Top_0700-0720.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 0.7,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:27:47"
+ },
+ "2026-02-22/173003/Right_Top_1326-1346.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 0.9,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:27:48"
+ },
+ "2026-02-22/113002/Right_Top_0820-0840.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 1.3,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:27:49"
+ },
+ "2026-02-22/100001/Right_Back_0451-0471.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 1.6,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:27:51"
+ },
+ "2026-02-20/202422/Right_Left_0360-0380.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 0.6,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:27:52"
+ },
+ "2026-02-22/153003/Right_Top_0167-0187.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 0.6,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:27:53"
+ },
+ "2026-02-22/120002/Right_Top_0888-0908.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 0.9,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:27:54"
+ },
+ "2026-02-22/110002/Right_Top_0495-0515.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 0.9,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:27:55"
+ },
+ "2026-02-23/230004/Right_Top_1260-1280.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 1.1,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:27:56"
+ },
+ "2026-02-23/220004/Right_Top_0360-0380.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 0.6,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:27:57"
+ },
+ "2026-02-23/190003/Right_Top_1420-1440.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 0.9,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:27:58"
+ },
+ "2026-02-24/143002/Right_Top_1160-1180.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 0.5,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:27:58"
+ },
+ "2026-02-24/203004/Right_Top_0700-0720.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 0.5,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:27:59"
+ },
+ "2026-02-22/063001/Right_Top_0886-0906.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 0.5,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:28:00"
+ },
+ "2026-02-23/053001/Right_Top_0836-0856.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 0.7,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:28:01"
+ },
+ "2026-02-24/173003/Right_Back_1131-1151.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 1.6,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:28:02"
+ },
+ "2026-02-24/130002/Right_Top_1380-1400.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 1.5,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:28:04"
+ },
+ "2026-02-25/163003/Right_Back_1350-1370.mp4": {
+  "present": true,
+  "ethogram": "Resting / stationary",
+  "unsure": false,
+  "note": "",
+  "seconds": 2.4,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:28:07"
+ },
+ "2026-02-23/090001/Right_Top_1321-1341.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 2.5,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:28:09"
+ },
+ "2026-02-22/163002/Right_Left_0260-0280.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 1.4,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:28:11"
+ },
+ "2026-02-21/160002/Right_Front_1358-1378.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 1.8,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:28:13"
+ },
+ "2026-02-22/083001/Right_Top_0347-0367.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 2.4,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:28:15"
+ },
+ "2026-02-24/133002/Right_Top_1120-1140.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 1.2,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:28:17"
+ },
+ "2026-02-23/040000/Right_Top_1686-1706.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 0.7,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:28:18"
+ },
+ "2026-02-22/063001/Right_Top_0984-1004.mp4": {
+  "present": true,
+  "ethogram": "Resting / stationary",
+  "unsure": false,
+  "note": "",
+  "seconds": 1.9,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:28:20"
+ },
+ "2026-02-22/183003/Right_Top_1648-1668.mp4": {
+  "present": true,
+  "ethogram": "Colour change / defensive",
+  "unsure": false,
+  "note": "",
+  "seconds": 2.1,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:28:22"
+ },
+ "2026-02-22/120002/Right_Back_0190-0210.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 2.0,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:28:24"
+ },
+ "2026-02-21/230004/Right_Top_1373-1393.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 1.5,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:28:26"
+ },
+ "2026-02-23/233004/Right_Top_0700-0720.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 0.6,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:28:27"
+ },
+ "2026-02-21/170003/Right_Top_1235-1255.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 1.2,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:28:28"
+ },
+ "2026-02-24/200004/Right_Top_1680-1700.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 0.8,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:28:29"
+ },
+ "2026-02-24/160003/Right_Top_0260-0280.mp4": {
+  "present": true,
+  "ethogram": "Reaching out of water",
+  "unsure": false,
+  "note": "",
+  "seconds": 4.2,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:28:33"
+ },
+ "2026-02-22/130002/Right_Back_1143-1163.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 2.0,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:28:35"
+ },
+ "2026-02-23/190003/Right_Top_1580-1600.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 1.4,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:28:40"
+ },
+ "2026-02-23/060001/Right_Top_1307-1327.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 1.2,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:28:41"
+ },
+ "2026-02-24/230004/Right_Top_0340-0360.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 0.7,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:28:42"
+ },
+ "2026-02-20/165422/Right_Top_1639-1659.mp4": {
+  "present": true,
+  "ethogram": "Exploration / manipulation",
+  "unsure": false,
+  "note": "",
+  "seconds": 3.1,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:28:45"
+ },
+ "2026-02-23/063001/Right_Top_0811-0831.mp4": {
+  "present": true,
+  "ethogram": "Resting / stationary",
+  "unsure": false,
+  "note": "",
+  "seconds": 6.2,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:28:52"
+ },
+ "2026-02-22/163003/Right_Top_1222-1242.mp4": {
+  "present": true,
+  "ethogram": "Resting / stationary",
+  "unsure": false,
+  "note": "",
+  "seconds": 184.0,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:31:56"
+ },
+ "2026-02-23/183004/Right_Back_0717-0737.mp4": {
+  "present": true,
+  "ethogram": "Human / enrichment interaction",
+  "unsure": false,
+  "note": "",
+  "seconds": 4.9,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:32:07"
+ },
+ "2026-02-22/130002/Right_Top_0480-0500.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 4.3,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:32:11"
+ },
+ "2026-02-21/190003/Right_Left_0865-0885.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 3.7,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:32:15"
+ },
+ "2026-02-21/130002/Right_Front_0000-0020.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 2.2,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:32:17"
+ },
+ "2026-02-23/223004/Right_Top_0600-0620.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 2.0,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:32:20"
+ },
+ "2026-02-23/163003/Right_Top_1293-1313.mp4": {
+  "present": true,
+  "ethogram": "Reaching out of water",
+  "unsure": false,
+  "note": "",
+  "seconds": 7.0,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-22T18:34:29"
+ }
+}

@@ -1,0 +1,11 @@
+torch
+openai-clip
+numpy
+pillow
+requests
+# harvest_stream.scan_stream imports cv2 lazily (motion detection), so a missing
+# opencv only fails AFTER a video passes the probe -- i.e. exactly on the videos that
+# look most promising. Keep it listed even though nothing imports it at module scope.
+opencv-python-headless
+# openai-clip imports pkg_resources, which setuptools>=81 drops
+setuptools<81

@@ -1,0 +1,46 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+==========================================================
+
+The contents of `data/` — the ethogram labels and their vote distributions, the
+captions, and the human labels — are licensed under CC BY 4.0.
+
+    https://creativecommons.org/licenses/by/4.0/
+
+You are free to share and adapt this material for any purpose, including
+commercially, provided you give appropriate credit.
+
+Attribution
+-----------
+
+Please cite the paper:
+
+    S. Raj, H. Burgsteiner, and W. Slany, "From Footage to Ethogram: A
+    Deployable Pipeline for Continuous Behavioural Monitoring of a Captive
+    Octopus," in Proc. OCEANS 2026 Monterey, 2026.
+
+What these labels are, and are not
+----------------------------------
+
+Two properties of this dataset are licence-independent but matter for any use,
+and are stated here because a licence file is the one document people do read:
+
+1. The 5,222 behaviour labels are TEACHER labels produced by a 5-pass
+   Qwen3-VL-235B ensemble, not by a human. The full vote distribution is
+   included rather than only the majority, because the margin predicts human
+   agreement. Treat them as a strong automatic annotation, not ground truth.
+
+2. The 456 human labels measure AGREEMENT, not accuracy: every one was collected
+   with the model's suggestion visible on screen, and each record carries an
+   `assisted` flag set to true.
+
+The footage itself is not distributed under this licence and is not included in
+this repository. It is observational recording of a single animal held at a
+partner aquarium; `README.md` describes how to reconstruct the clips from the
+provenance recorded in the labels.
+
+Scope
+-----
+
+This file covers `data/` only. Code is Apache-2.0 (see `LICENSE`); the paper
+text and figures in `paper/` are the authors' copyright, with IEEE copyright
+applying to the published version.

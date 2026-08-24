@@ -1,0 +1,33 @@
+{
+ "description": "Compact 7-behavior ethogram for Nity, reduced from the 19-label ethogram_list.json to match the behaviors the clip data actually supports (6 of the 19 had zero clips). 'maps_from' records which original labels fold into each. 'octopus not present' remains a sentinel added by the tooling, not a behavior.",
+ "behaviors": [
+  {"id": "resting", "category": "Resting",
+   "label": "Resting / stationary",
+   "description": "Octopus mostly still, in the den or in the open, with minimal movement.",
+   "maps_from": ["Stationary in open", "Stationary in den"]},
+  {"id": "exploration", "category": "Exploration",
+   "label": "Exploration / manipulation",
+   "description": "Extending or probing arms to explore, and gripping/moving/manipulating objects.",
+   "maps_from": ["Arm extension / probing", "Object manipulation", "Rearranging den", "Manipulating food", "Hunting", "Capturing prey"]},
+  {"id": "crawling", "category": "Locomotion",
+   "label": "Crawling",
+   "description": "Moving across the substrate or surfaces using its arms (includes arm-walking and moving in/out of the den).",
+   "maps_from": ["Crawling", "Arm walking", "Entering den", "Exiting den"]},
+  {"id": "swimming", "category": "Locomotion",
+   "label": "Swimming / jetting",
+   "description": "Swimming or jetting through the water column, off the substrate.",
+   "maps_from": ["Swimming / jetting"]},
+  {"id": "reaching_out", "category": "Locomotion",
+   "label": "Reaching out of water",
+   "description": "Extending arms above the water surface or climbing out of the water.",
+   "maps_from": ["Reaching out of water"]},
+  {"id": "interaction", "category": "Interaction",
+   "label": "Human / enrichment interaction",
+   "description": "Responding to a person, or interacting with an enrichment device/toy.",
+   "maps_from": ["Responding to human", "Enrichment interaction"]},
+  {"id": "color_defense", "category": "Camouflage / defense",
+   "label": "Colour change / defensive",
+   "description": "Changing skin colour or texture (chromatophores), releasing ink, or hiding/flattening.",
+   "maps_from": ["Color / texture change", "Ink release", "Hiding / flattening"]}
+ ]
+}

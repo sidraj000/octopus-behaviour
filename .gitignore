@@ -1,0 +1,28 @@
+# Code, labels and paper only. Models, cached features and the presence-frame dataset are on
+# Google Drive -- see "Where things live" in README.md.
+venv/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+
+# large binaries never belong here
+*.mp4
+*.npy
+*.npz
+*.pt
+*.safetensors
+
+# images, except the frozen figure sources
+*.jpg
+*.png
+!paper/assets/**/*.jpg
+!paper/assets/**/*.png
+
+# latex build products
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.fls
+*.fdb_latexmk

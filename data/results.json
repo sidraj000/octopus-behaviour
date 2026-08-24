@@ -1,0 +1,132 @@
+{
+ "thin768": {
+  "skel": {
+   "n_frames": 50,
+   "tip_precision": 0.7117,
+   "tip_recall": 0.3529,
+   "tip_f1": 0.4186,
+   "arms_per_frame": 3.24,
+   "refined": false
+  },
+  "_meta": {
+   "tag": "thin768",
+   "ckpt": "octo_seg_thin768_lraspp.pt",
+   "refine": false,
+   "elapsed_s": 13.1
+  }
+ },
+ "clean512tv": {
+  "seg": {
+   "n_frames": 122,
+   "n_negatives": 19,
+   "n_videos": 5,
+   "iou_mean": 0.6075,
+   "iou_median": 0.6661,
+   "area_err_pct": 1.065,
+   "presence_auc": 0.7179
+  },
+  "_meta": {
+   "tag": "clean512tv",
+   "ckpt": "octo_seg_clean512tv_lraspp.pt",
+   "refine": false,
+   "elapsed_s": 4.9
+  }
+ },
+ "gates_tuned": {
+  "skel": {
+   "n_frames": 50,
+   "tip_precision": 0.6847,
+   "tip_recall": 0.3804,
+   "tip_f1": 0.4407,
+   "arms_per_frame": 3.68,
+   "refined": false
+  },
+  "_meta": {
+   "tag": "gates_tuned",
+   "ckpt": "octo_seg_thin768_lraspp.pt",
+   "refine": false,
+   "elapsed_s": 10.6
+  }
+ },
+ "gates_tuned_gtfix": {
+  "skel": {
+   "n_frames": 50,
+   "tip_precision": 0.7216,
+   "tip_recall": 0.5019,
+   "tip_f1": 0.539,
+   "arms_per_frame": 3.68,
+   "refined": false
+  },
+  "_meta": {
+   "tag": "gates_tuned_gtfix",
+   "ckpt": "octo_seg_thin768_lraspp.pt",
+   "refine": false,
+   "elapsed_s": 27.6
+  }
+ },
+ "paper_current": {
+  "seg": {
+   "n_frames": 122,
+   "n_negatives": 19,
+   "n_videos": 5,
+   "iou_mean": 0.6415,
+   "iou_median": 0.7193,
+   "area_err_pct": 1.051,
+   "presence_auc": 0.7942
+  },
+  "skel": {
+   "n_frames": 50,
+   "tip_precision": 0.7216,
+   "tip_recall": 0.5019,
+   "tip_f1": 0.539,
+   "arms_per_frame": 3.68,
+   "refined": false
+  },
+  "_meta": {
+   "tag": "paper_current",
+   "ckpt": "octo_seg_thin768_lraspp.pt",
+   "refine": false,
+   "elapsed_s": 51.0
+  }
+ },
+ "fuse_flow": {
+  "seg": {
+   "n_frames": 122,
+   "n_negatives": 19,
+   "fusion": "flow",
+   "align_fail": 0,
+   "n_videos": 5,
+   "iou_mean": 0.5109,
+   "iou_median": 0.5505,
+   "area_err_pct": 1.059,
+   "presence_auc": 0.9495
+  },
+  "_meta": {
+   "tag": "fuse_flow",
+   "ckpt": "octo_seg_thin768_lraspp.pt",
+   "refine": false,
+   "fusion": "flow",
+   "elapsed_s": 562.7
+  }
+ },
+ "fuse_ema": {
+  "seg": {
+   "n_frames": 122,
+   "n_negatives": 19,
+   "fusion": "ema",
+   "align_fail": 0,
+   "n_videos": 5,
+   "iou_mean": 0.5471,
+   "iou_median": 0.6,
+   "area_err_pct": 1.0,
+   "presence_auc": 0.9685
+  },
+  "_meta": {
+   "tag": "fuse_ema",
+   "ckpt": "octo_seg_thin768_lraspp.pt",
+   "refine": false,
+   "fusion": "ema",
+   "elapsed_s": 922.7
+  }
+ }
+}

@@ -1,0 +1,982 @@
+{
+ "2026-02-20/165422/Right_Right_1680-1700.mp4": {
+  "present": true,
+  "ethogram": "Crawling",
+  "unsure": false,
+  "note": "",
+  "seconds": 25.8,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:35:26"
+ },
+ "2026-02-20/175422/Right_Right_0061-0081.mp4": {
+  "present": true,
+  "ethogram": "Reaching out of water",
+  "unsure": false,
+  "note": "",
+  "seconds": 9.8,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:35:36"
+ },
+ "2026-02-20/195422/Right_Left_1696-1716.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 4.2,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:35:40"
+ },
+ "2026-02-20/182422/Right_Left_0522-0542.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 52.9,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:36:33"
+ },
+ "2026-02-21/063001/Right_Left_1255-1275.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 11.4,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:36:45"
+ },
+ "2026-02-21/103001/Right_Left_1104-1124.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 2.7,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:36:48"
+ },
+ "2026-02-20/182422/Right_Left_0220-0240.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 1.7,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:36:50"
+ },
+ "2026-02-22/133002/Right_Left_0055-0075.mp4": {
+  "present": true,
+  "ethogram": "Exploration / manipulation",
+  "unsure": false,
+  "note": "",
+  "seconds": 10.9,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:37:01"
+ },
+ "2026-02-22/143002/Right_Front_1344-1364.mp4": {
+  "present": true,
+  "ethogram": "Crawling",
+  "unsure": false,
+  "note": "",
+  "seconds": 152.0,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:39:33"
+ },
+ "2026-02-21/153002/Right_Right_0320-0340.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 7.3,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:39:40"
+ },
+ "2026-02-20/092420/Right_Left_1429-1449.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 8.2,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:39:49"
+ },
+ "2026-02-21/123001/Right_Right_1525-1545.mp4": {
+  "present": true,
+  "ethogram": "Resting / stationary",
+  "unsure": false,
+  "note": "",
+  "seconds": 13.0,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:40:02"
+ },
+ "2026-02-21/133002/Right_Left_0706-0726.mp4": {
+  "present": true,
+  "ethogram": "Exploration / manipulation",
+  "unsure": false,
+  "note": "",
+  "seconds": 28.2,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:40:30"
+ },
+ "2026-02-21/160002/Right_Right_0600-0620.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 17.1,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:40:47"
+ },
+ "2026-02-20/195422/Right_Left_1676-1696.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 6.6,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:40:54"
+ },
+ "2026-02-21/190002/Right_Right_0847-0867.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 2.4,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:41:15"
+ },
+ "2026-02-20/172422/Right_Left_0785-0805.mp4": {
+  "present": true,
+  "ethogram": "Resting / stationary",
+  "unsure": false,
+  "note": "",
+  "seconds": 6.2,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:41:22"
+ },
+ "2026-02-21/170003/Right_Front_0113-0133.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 6.1,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:41:28"
+ },
+ "2026-02-22/143002/Right_Left_1265-1285.mp4": {
+  "present": true,
+  "ethogram": "Crawling",
+  "unsure": false,
+  "note": "",
+  "seconds": 14.8,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:41:43"
+ },
+ "2026-02-21/190003/Right_Left_0431-0451.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 9.2,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:41:52"
+ },
+ "2026-02-20/185422/Right_Left_0364-0384.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 14.3,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:42:07"
+ },
+ "2026-02-21/183003/Right_Front_0786-0806.mp4": {
+  "present": true,
+  "ethogram": "Swimming / jetting",
+  "unsure": false,
+  "note": "",
+  "seconds": 6.6,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:42:13"
+ },
+ "2026-02-20/135421/Right_Left_1277-1297.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 8.5,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:42:22"
+ },
+ "2026-02-21/123001/Right_Right_1445-1465.mp4": {
+  "present": true,
+  "ethogram": "Resting / stationary",
+  "unsure": false,
+  "note": "",
+  "seconds": 25.1,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:42:47"
+ },
+ "2026-02-21/183002/Right_Right_0998-1018.mp4": {
+  "present": true,
+  "ethogram": "Crawling",
+  "unsure": false,
+  "note": "",
+  "seconds": 9.8,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:42:57"
+ },
+ "2026-02-21/143002/Right_Right_1580-1600.mp4": {
+  "present": true,
+  "ethogram": "Human / enrichment interaction",
+  "unsure": false,
+  "note": "",
+  "seconds": 3.9,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:43:01"
+ },
+ "2026-02-21/163002/Right_Front_0919-0939.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 13.3,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:43:15"
+ },
+ "2026-02-20/185422/Right_Left_1077-1097.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 46.4,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:44:01"
+ },
+ "2026-02-21/070001/Right_Left_0751-0771.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 6.1,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:44:08"
+ },
+ "2026-02-20/185422/Right_Front_1230-1250.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 11.0,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:44:19"
+ },
+ "2026-02-21/153002/Right_Left_0000-0020.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 5.7,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:44:25"
+ },
+ "2026-02-22/153002/Right_Front_1725-1745.mp4": {
+  "present": true,
+  "ethogram": "Human / enrichment interaction",
+  "unsure": false,
+  "note": "",
+  "seconds": 5.9,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:44:31"
+ },
+ "2026-02-22/153002/Right_Left_1236-1256.mp4": {
+  "present": true,
+  "ethogram": "Exploration / manipulation",
+  "unsure": false,
+  "note": "",
+  "seconds": 20.1,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:44:51"
+ },
+ "2026-02-21/073001/Right_Left_0777-0797.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 3.6,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:44:55"
+ },
+ "2026-02-21/170003/Right_Front_1042-1062.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 11.7,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:45:06"
+ },
+ "2026-02-20/162421/Right_Top_1630-1650.mp4": {
+  "present": true,
+  "ethogram": "Resting / stationary",
+  "unsure": false,
+  "note": "",
+  "seconds": 4.6,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:45:11"
+ },
+ "2026-02-21/183002/Right_Right_0432-0452.mp4": {
+  "present": true,
+  "ethogram": "Crawling",
+  "unsure": false,
+  "note": "",
+  "seconds": 13.5,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:45:25"
+ },
+ "2026-02-20/175422/Right_Right_0169-0189.mp4": {
+  "present": true,
+  "ethogram": "Human / enrichment interaction",
+  "unsure": false,
+  "note": "",
+  "seconds": 3.4,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:45:28"
+ },
+ "2026-02-20/165422/Right_Right_1640-1660.mp4": {
+  "present": true,
+  "ethogram": "Resting / stationary",
+  "unsure": false,
+  "note": "",
+  "seconds": 6.4,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:45:35"
+ },
+ "2026-02-21/140002/Right_Left_0477-0497.mp4": {
+  "present": true,
+  "ethogram": "Reaching out of water",
+  "unsure": false,
+  "note": "",
+  "seconds": 8.3,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:45:44"
+ },
+ "2026-02-21/140002/Right_Right_0320-0340.mp4": {
+  "present": true,
+  "ethogram": "Resting / stationary",
+  "unsure": false,
+  "note": "",
+  "seconds": 8.8,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:45:52"
+ },
+ "2026-02-22/150002/Right_Front_0342-0362.mp4": {
+  "present": true,
+  "ethogram": "Swimming / jetting",
+  "unsure": false,
+  "note": "",
+  "seconds": 11.5,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:46:04"
+ },
+ "2026-02-21/150002/Right_Right_1060-1080.mp4": {
+  "present": true,
+  "ethogram": "Reaching out of water",
+  "unsure": false,
+  "note": "",
+  "seconds": 9.1,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:46:13"
+ },
+ "2026-02-21/163002/Right_Front_0826-0846.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 15.9,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:46:29"
+ },
+ "2026-02-21/160002/Right_Right_0100-0120.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 10.5,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:46:40"
+ },
+ "2026-02-21/070001/Right_Left_0480-0500.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 16.9,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:46:57"
+ },
+ "2026-02-21/080001/Right_Left_0230-0250.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 18.7,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:47:16"
+ },
+ "2026-02-22/133002/Right_Left_0035-0055.mp4": {
+  "present": true,
+  "ethogram": "Exploration / manipulation",
+  "unsure": false,
+  "note": "",
+  "seconds": 7.1,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:47:23"
+ },
+ "2026-02-21/070001/Right_Left_0000-0020.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 5.2,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:47:29"
+ },
+ "2026-02-20/095420/Right_Left_0337-0357.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 89.4,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:48:58"
+ },
+ "2026-02-21/123002/Right_Left_1437-1457.mp4": {
+  "present": true,
+  "ethogram": "Resting / stationary",
+  "unsure": false,
+  "note": "",
+  "seconds": 9.9,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:49:08"
+ },
+ "2026-02-21/133002/Right_Right_1000-1020.mp4": {
+  "present": true,
+  "ethogram": "Reaching out of water",
+  "unsure": false,
+  "note": "",
+  "seconds": 8.0,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:49:16"
+ },
+ "2026-02-21/123002/Right_Left_1361-1381.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 9.2,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:49:26"
+ },
+ "2026-02-22/143002/Right_Front_1493-1513.mp4": {
+  "present": true,
+  "ethogram": "Reaching out of water",
+  "unsure": false,
+  "note": "",
+  "seconds": 40.2,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:50:06"
+ },
+ "2026-02-21/130002/Right_Left_0606-0626.mp4": {
+  "present": true,
+  "ethogram": "Reaching out of water",
+  "unsure": false,
+  "note": "",
+  "seconds": 14.9,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:50:21"
+ },
+ "2026-02-20/172422/Right_Top_1501-1521.mp4": {
+  "present": true,
+  "ethogram": "Human / enrichment interaction",
+  "unsure": false,
+  "note": "",
+  "seconds": 4.6,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:50:26"
+ },
+ "2026-02-21/110001/Right_Left_0056-0076.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 8.3,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:50:35"
+ },
+ "2026-02-22/130002/Right_Left_1497-1517.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 7.1,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:50:42"
+ },
+ "2026-02-21/123001/Right_Front_1537-1557.mp4": {
+  "present": true,
+  "ethogram": "Human / enrichment interaction",
+  "unsure": false,
+  "note": "",
+  "seconds": 31.3,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:51:13"
+ },
+ "2026-02-21/190003/Right_Front_0873-0893.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 35.2,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:51:49"
+ },
+ "2026-02-21/223003/Right_Left_1153-1173.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 4.7,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:51:53"
+ },
+ "2026-02-21/160002/Right_Front_1392-1412.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 3.7,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:51:57"
+ },
+ "2026-02-20/182422/Right_Right_1250-1270.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 12.3,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:52:10"
+ },
+ "2026-02-21/183002/Right_Right_0332-0352.mp4": {
+  "present": true,
+  "ethogram": "Resting / stationary",
+  "unsure": false,
+  "note": "",
+  "seconds": 7.1,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:52:17"
+ },
+ "2026-02-21/170002/Right_Right_0640-0660.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 28.6,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:52:46"
+ },
+ "2026-02-21/133002/Right_Left_0400-0420.mp4": {
+  "present": true,
+  "ethogram": "Reaching out of water",
+  "unsure": false,
+  "note": "",
+  "seconds": 8.1,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:52:54"
+ },
+ "2026-02-20/165422/Right_Back_1681-1701.mp4": {
+  "present": true,
+  "ethogram": "Reaching out of water",
+  "unsure": false,
+  "note": "",
+  "seconds": 4.6,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:52:59"
+ },
+ "2026-02-22/153002/Right_Back_1614-1634.mp4": {
+  "present": true,
+  "ethogram": "Human / enrichment interaction",
+  "unsure": false,
+  "note": "",
+  "seconds": 16.6,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:53:15"
+ },
+ "2026-02-21/183003/Right_Front_0313-0333.mp4": {
+  "present": true,
+  "ethogram": "Resting / stationary",
+  "unsure": false,
+  "note": "",
+  "seconds": 6.5,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:53:22"
+ },
+ "2026-02-21/173003/Right_Left_0290-0310.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 3.2,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:53:26"
+ },
+ "2026-02-22/130002/Right_Left_0692-0712.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 79.9,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:54:46"
+ },
+ "2026-02-21/153002/Right_Left_0580-0600.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 4.2,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:54:50"
+ },
+ "2026-02-21/063001/Right_Left_1275-1295.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 3.7,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:54:54"
+ },
+ "2026-02-21/063001/Right_Left_1315-1335.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 3.9,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:54:58"
+ },
+ "2026-02-21/123002/Right_Left_1537-1557.mp4": {
+  "present": true,
+  "ethogram": "Exploration / manipulation",
+  "unsure": false,
+  "note": "",
+  "seconds": 5.1,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:55:03"
+ },
+ "2026-02-21/173003/Right_Left_0804-0824.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 8.8,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:55:12"
+ },
+ "2026-02-21/150002/Right_Right_1460-1480.mp4": {
+  "present": true,
+  "ethogram": "Swimming / jetting",
+  "unsure": false,
+  "note": "",
+  "seconds": 20.7,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:55:33"
+ },
+ "2026-02-21/170003/Right_Front_0661-0681.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 6.6,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:55:40"
+ },
+ "2026-02-22/130002/Right_Left_1269-1289.mp4": {
+  "present": true,
+  "ethogram": "Crawling",
+  "unsure": false,
+  "note": "",
+  "seconds": 6.9,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:55:47"
+ },
+ "2026-02-21/143002/Right_Right_1660-1680.mp4": {
+  "present": true,
+  "ethogram": "Human / enrichment interaction",
+  "unsure": false,
+  "note": "",
+  "seconds": 3.8,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:55:51"
+ },
+ "2026-02-21/190003/Right_Left_0297-0317.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 3.9,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:55:55"
+ },
+ "2026-02-22/133002/Right_Left_0090-0110.mp4": {
+  "present": true,
+  "ethogram": "Reaching out of water",
+  "unsure": false,
+  "note": "",
+  "seconds": 11.5,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:56:06"
+ },
+ "2026-02-21/143002/Right_Left_0080-0100.mp4": {
+  "present": true,
+  "ethogram": "Resting / stationary",
+  "unsure": false,
+  "note": "",
+  "seconds": 30.3,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:56:37"
+ },
+ "2026-02-20/202422/Right_Top_0452-0472.mp4": {
+  "present": true,
+  "ethogram": "Exploration / manipulation",
+  "unsure": false,
+  "note": "",
+  "seconds": 7.9,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:56:45"
+ },
+ "2026-02-21/073001/Right_Left_0797-0817.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 20.1,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:57:05"
+ },
+ "2026-02-21/173003/Right_Left_0824-0844.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 4.2,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:57:09"
+ },
+ "2026-02-21/163002/Right_Front_1520-1540.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 9.2,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:57:19"
+ },
+ "2026-02-21/183003/Right_Left_0937-0957.mp4": {
+  "present": true,
+  "ethogram": "Resting / stationary",
+  "unsure": false,
+  "note": "",
+  "seconds": 6.7,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T16:57:26"
+ },
+ "2026-02-21/073001/Right_Left_0641-0661.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 3.7,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T17:54:57"
+ },
+ "2026-02-21/140002/Right_Left_0397-0417.mp4": {
+  "present": true,
+  "ethogram": "Exploration / manipulation",
+  "unsure": false,
+  "note": "",
+  "seconds": 16.7,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T17:55:14"
+ },
+ "2026-02-20/095420/Right_Left_1048-1068.mp4": {
+  "present": false,
+  "ethogram": null,
+  "unsure": false,
+  "note": "",
+  "seconds": 3.9,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T17:55:18"
+ },
+ "2026-02-21/130002/Right_Right_0489-0509.mp4": {
+  "present": true,
+  "ethogram": "Human / enrichment interaction",
+  "unsure": false,
+  "note": "",
+  "seconds": 3.3,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T17:55:21"
+ },
+ "2026-02-21/130002/Right_Right_0923-0943.mp4": {
+  "present": true,
+  "ethogram": "Human / enrichment interaction",
+  "unsure": false,
+  "note": "",
+  "seconds": 3.3,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T17:55:25"
+ },
+ "2026-02-21/150002/Right_Right_1080-1100.mp4": {
+  "present": true,
+  "ethogram": "Exploration / manipulation",
+  "unsure": false,
+  "note": "",
+  "seconds": 10.5,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T17:55:35"
+ },
+ "2026-02-22/150002/Right_Front_0264-0284.mp4": {
+  "present": true,
+  "ethogram": "Reaching out of water",
+  "unsure": false,
+  "note": "",
+  "seconds": 5.2,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T17:55:41"
+ },
+ "2026-02-20/175422/Right_Front_0265-0285.mp4": {
+  "present": true,
+  "ethogram": "Human / enrichment interaction",
+  "unsure": false,
+  "note": "",
+  "seconds": 3.1,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T17:55:44"
+ },
+ "2026-02-20/172422/Right_Left_0967-0987.mp4": {
+  "present": true,
+  "ethogram": "Resting / stationary",
+  "unsure": false,
+  "note": "",
+  "seconds": 10.6,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T17:55:55"
+ },
+ "2026-02-22/150002/Right_Front_0304-0324.mp4": {
+  "present": true,
+  "ethogram": "Exploration / manipulation",
+  "unsure": false,
+  "note": "",
+  "seconds": 9.5,
+  "skipped": false,
+  "assisted": true,
+  "at": "2026-08-21T17:56:04"
+ }
+}

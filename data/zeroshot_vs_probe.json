@@ -1,0 +1,77 @@
+{
+ "_meta": {
+  "set": "EMPTY-V2 (human-verified, detector-INDEPENDENT: uniform-random timestamps over whole source videos)",
+  "n_pos": 23,
+  "n_neg": 97,
+  "n_videos": 60,
+  "detector": "clip_mlp_hardneg_v2.pt",
+  "segmenter": "octo_seg_thin768_lraspp.pt",
+  "zeroshot_prompts": {
+   "octopus": [
+    "a photo of an octopus",
+    "an octopus in an aquarium tank",
+    "an octopus on the glass of a tank",
+    "an octopus resting on rocks underwater",
+    "a cephalopod with visible arms"
+   ],
+   "empty": [
+    "an empty aquarium tank",
+    "an empty tank with no animal in it",
+    "rocks and sand in an empty aquarium",
+    "an underwater tank wall with no animal",
+    "empty water with no creature"
+   ]
+  },
+  "note": "probe and zeroshot share the SAME frozen CLIP ViT-B/32 backbone and letterbox preprocessing, so the delta isolates the probe. Frame-level; the deployed gate acts on 20s windows, so this is a per-frame proxy."
+ },
+ "arms": {
+  "probe": {
+   "auc": 0.745,
+   "ci95": [
+    0.5642,
+    0.8902
+   ],
+   "fp_at_recall90": 0.8557,
+   "thr_at_recall90": 0.0008,
+   "fp_at_recall80": 0.5258,
+   "median_pos": 0.9607,
+   "median_neg": 0.0056,
+   "fp_at_deployed_0.60": 0.1753,
+   "recall_at_deployed_0.60": 0.6087
+  },
+  "zeroshot": {
+   "auc": 0.45,
+   "ci95": [
+    0.2585,
+    0.6432
+   ],
+   "fp_at_recall90": 0.9588,
+   "thr_at_recall90": 0.0265,
+   "fp_at_recall80": 0.866,
+   "median_pos": 0.1288,
+   "median_neg": 0.1824
+  },
+  "area": {
+   "auc": 0.7064,
+   "ci95": [
+    0.5435,
+    0.8537
+   ],
+   "fp_at_recall90": 0.8247,
+   "thr_at_recall90": 0.0002,
+   "fp_at_recall80": 0.433,
+   "median_pos": 0.0084,
+   "median_neg": 0.0024,
+   "fp_at_deployed_0.01": 0.1546,
+   "recall_at_deployed_0.01": 0.4783
+  }
+ },
+ "delta_probe_minus_zeroshot": {
+  "mean": 0.295,
+  "ci95": [
+   0.0692,
+   0.5277
+  ],
+  "includes_zero": false
+ }
+}
