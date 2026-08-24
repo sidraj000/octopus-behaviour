@@ -153,10 +153,10 @@ undone at acceptance. It is simpler not to start.
 
 Please cite:
 
-    S. Raj, K. M. Patel, H. Kumar, S. Pachnanda, H. P. Singh, H. Burgsteiner,
-    and W. Slany, "From Footage to Ethogram: A Deployable Pipeline for
-    Continuous Behavioural Monitoring of a Captive Octopus," in Proc. OCEANS
-    2026 Monterey, 2026.
+    S. Raj, K. M. Patel, H. Kumar, R. Thakur, S. Pachnanda, H. P. Singh,
+    H. Burgsteiner, and W. Slany, "From Footage to Ethogram: A Deployable
+    Pipeline for Continuous Behavioural Monitoring of a Captive Octopus," in
+    Proc. OCEANS 2026 Monterey, 2026.
 
 `docs/PAPER_NOTES.md` is the full experimental record behind it, including the failed experiments
 and the retracted conclusions, and every number the paper reports is reproducible from `src/`.
