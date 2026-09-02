@@ -1,9 +1,7 @@
 # Octopus behaviour pipeline
 
-Code and labels for **"From Footage to Ethogram: A Deployable Pipeline for Continuous
-Behavioural Monitoring of a Captive Octopus"** (OCEANS 2026 Monterey).
-
-The paper itself is not distributed here - see **Paper** below.
+Code, labels and trained models for turning raw aquarium video into a behavioural time series
+for a captive octopus.
 
 A cascade of small local models turns raw aquarium video into a behavioural time series. A
 235B-parameter vision–language model is used only as an **offline teacher**; nothing large runs at
@@ -19,15 +17,17 @@ still contain no animal.
 
 ## Where things live
 
-**Models and the large datasets are on Google Drive:**
-**https://drive.google.com/drive/folders/1e-8iJRsXDho5sXnxGj3_ylKNPvnxwI1P?usp=sharing**
+**Models are on Hugging Face; the large datasets are on Google Drive:**
+**https://huggingface.co/sidraj000** · **https://drive.google.com/drive/folders/1e-8iJRsXDho5sXnxGj3_ylKNPvnxwI1P?usp=sharing**
 
 | artifact | location |
 |---|---|
 | **ethogram labels** (5,222 clips, full vote distributions) | **this repo** — `data/ethogram/` |
 | **captions** (~25,000 across 5 passes) | **this repo** — `data/captions/` |
 | **human labels** (456) | **this repo** — `data/human_labels/` |
-| trained models (5, ~1.8 GB) | [**Drive**](https://drive.google.com/drive/folders/1e-8iJRsXDho5sXnxGj3_ylKNPvnxwI1P?usp=sharing) — `models/`, each with a card in `MODELS.md` |
+| **segmentation + presence models** | [**Hugging Face**](https://huggingface.co/sidraj000/octopus-nity-segmentation) |
+| **caption student** (LoRA + 4-bit MLX) | [**Hugging Face**](https://huggingface.co/sidraj000/octopus-nity-caption-qwen3vl2b-mlx-4bit) |
+| ethogram ensemble (32 MB) | [Drive](https://drive.google.com/drive/folders/1e-8iJRsXDho5sXnxGj3_ylKNPvnxwI1P?usp=sharing) — `models/`, card in `MODELS.md` |
 | cached backbone features (5 × `.npz`, 317 MB) | [**Drive**](https://drive.google.com/drive/folders/1e-8iJRsXDho5sXnxGj3_ylKNPvnxwI1P?usp=sharing) — `datasets/ethogram_dataset_v1/` |
 | presence-classification frames (9,596 labelled frames, 8.1 GB) | [**Drive**](https://drive.google.com/drive/folders/1e-8iJRsXDho5sXnxGj3_ylKNPvnxwI1P?usp=sharing) |
 | the 20 s video clips (~46 GB) | not distributed — reconstructible, see below |
@@ -49,7 +49,7 @@ blind round is specified but was not run before release, so the ethogram numbers
 *teacher reproduction*.
 
 **3. One animal, one tank.** Every measurement is a single adult *O. vulgaris*. Cross-animal
-generalisation is untested and is the paper's principal limitation.
+generalisation is untested and is the principal limitation of everything here.
 
 ## Results
 
@@ -73,7 +73,7 @@ Enforced in code, not documented as intentions, because the pipeline broke each 
 1. **Splits are by source video, never by clip.** A held-out clip from a training video is not held
    out. `src/validate_ethogram_dataset.py` asserts it and exits non-zero.
 2. **Frozen evaluation sets are never regenerated to suit a result.** Figure sources are pinned
-   alongside the paper rather than read live; pointing a figure at a scratch directory silently
+   rather than read live; pointing a figure at a scratch directory silently
    changed a published figure once.
 3. **Negatives of different kinds are never pooled** — reflections, empty tank and infrared fail
    differently and averaging them hides which.
@@ -117,49 +117,45 @@ gain from mask-geometry features turned out to live entirely on videos the segme
 
 ## Models
 
-Five models, all on [Drive](https://drive.google.com/drive/folders/1e-8iJRsXDho5sXnxGj3_ylKNPvnxwI1P?usp=sharing)
-under `models/`, each with a card in the Drive `MODELS.md` stating what it trained on, what it scores on which
-frozen set, and **what it must not be used for**:
+On Hugging Face, Apache-2.0:
 
-| model | size | task |
-|---|---|---|
-| `octo-presence-clip-probe-v1.pt` | 0.6 MB | is an octopus visible in this frame |
-| `octo-mask-lraspp-3.2M-v1.pt` | 12.5 MB | segmentation, no prompt at inference |
-| `octo-ethogram-ensemble-v1.pt` | 32 MB | 6-class behaviour, absence included |
-| `octo-caption-qwen3vl2b-lora-v1/` | 78 MB | caption adapter (needs the base model) |
-| `octo-caption-qwen3vl2b-4bit-v1/` | 1.7 GB | same, quantised, ~3 s/clip on a laptop |
+**[`sidraj000/octopus-nity-segmentation`](https://huggingface.co/sidraj000/octopus-nity-segmentation)**
 
-Two caveats carried on the cards: the mask model is **colour-only** and must not be used on infrared
-(35% of the corpus), and the ethogram model **reproduces the VLM teacher, not ground truth**.
+| file | task |
+|---|---|
+| `clip_mlp_hardneg_v2.pt` | presence — is an octopus visible in this frame |
+| `octo_seg_v3_lraspp.pt` (and `_BEST`) | segmentation, 3.2 M params, no prompt at inference |
+| `octo_seg_v1_ch{8,16,32}.pt`, `v2`, `aug_*` | the size/augmentation sweep, kept for the IoU-vs-size curve |
 
-Three further checkpoints are deliberately withheld with reasons recorded in the Drive `models/manifest.json` — most
-notably a retrained presence gate that is much better on diverse footage (FPR 0.485 → 0.243) but
-forgot its original domain (recall 0.985 → 0.903).
+**[`sidraj000/octopus-nity-caption-qwen3vl2b-mlx-4bit`](https://huggingface.co/sidraj000/octopus-nity-caption-qwen3vl2b-mlx-4bit)**
+
+| directory | task |
+|---|---|
+| `lora/` | caption adapter for Qwen3-VL-2B (needs the base model) |
+| `mlx_4bit/` | the same student quantised, ~3 s/clip on Apple Silicon, no CUDA |
+
+Read before using either:
+
+- The mask model is **colour-only**. It over-segments bright metal on infrared, which is 35% of the
+  corpus, and must not be run there.
+- The caption student **reproduces a VLM teacher, not ground truth.**
+- The segmentation checkpoints published here are the `v3`/sweep line. The IoU quoted in **Results**
+  above is from a later `thin768` checkpoint trained at 768² with Focal--Tversky loss, which is not
+  in this repo — so treat the table as the result of the method, not as a spec sheet for these files.
+
+The **ethogram ensemble** is not on Hugging Face; it is on
+[Drive](https://drive.google.com/drive/folders/1e-8iJRsXDho5sXnxGj3_ylKNPvnxwI1P?usp=sharing) under
+`models/`, together with the cached features needed to retrain it.
+
+Three further checkpoints are deliberately withheld, with reasons recorded in the Drive
+`models/manifest.json` — most notably a retrained presence gate that is much better on diverse
+footage (FPR 0.485 → 0.243) but forgot its original domain (recall 0.985 → 0.903).
 
 ## Licence
 
 - **Code** (`src/`, `ui/`) — Apache-2.0, see `LICENSE`.
-- **Data and labels** (`data/`) — CC-BY-4.0, see `LICENSE-DATA`. Please cite the paper.
-(The paper is not in this repository; see **Paper** above.)
-
-## Paper
-
-The LaTeX source and PDF are deliberately **not** published here. Under the IEEE copyright
-agreement the Version of Record may not be posted online at all, and the accepted version is
-permitted only on an author's personal or employer site, an institutional or funder repository,
-arXiv or TechRxiv - and IEEE's conference policy states that accepted papers "must be removed from
-any other third-party servers." GitHub is a third-party server, so hosting it here would have to be
-undone at acceptance. It is simpler not to start.
-
-Please cite:
-
-    S. Raj, K. M. Patel, H. Kumar, R. Thakur, S. Pachnanda, H. P. Singh,
-    H. Burgsteiner, and W. Slany, "From Footage to Ethogram: A Deployable
-    Pipeline for Continuous Behavioural Monitoring of a Captive Octopus," in
-    Proc. OCEANS 2026 Monterey, 2026.
-
-`docs/PAPER_NOTES.md` is the full experimental record behind it, including the failed experiments
-and the retracted conclusions, and every number the paper reports is reproducible from `src/`.
+- **Data and labels** (`data/`) — CC-BY-4.0, see `LICENSE-DATA`.
+- **Models** — Apache-2.0, on Hugging Face (see **Models**).
 
 ## Ethics
 
