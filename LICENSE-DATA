@@ -12,12 +12,7 @@ commercially, provided you give appropriate credit.
 Attribution
 -----------
 
-Please cite the paper:
-
-    S. Raj, K. M. Patel, H. Kumar, R. Thakur, S. Pachnanda, H. P. Singh,
-    H. Burgsteiner, and W. Slany, "From Footage to Ethogram: A Deployable
-    Pipeline for Continuous Behavioural Monitoring of a Captive Octopus," in
-    Proc. OCEANS 2026 Monterey, 2026.
+Please credit the authors and link back to this repository.
 
 What these labels are, and are not
 ----------------------------------
@@ -42,6 +37,5 @@ provenance recorded in the labels.
 Scope
 -----
 
-This file covers `data/` only. Code is Apache-2.0 (see `LICENSE`); the paper
-text and figures in `paper/` are the authors' copyright, with IEEE copyright
-applying to the published version.
+This file covers `data/` only. Code is Apache-2.0 (see `LICENSE`); the models
+are Apache-2.0 and distributed separately (see the README).

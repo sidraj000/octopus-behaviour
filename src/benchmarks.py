@@ -1,4 +1,4 @@
-"""benchmarks.py — the project's formal benchmark suite (single runner, paper-ready output).
+"""benchmarks.py — the project's formal benchmark suite (single runner, publication-ready output).
 
 Three frozen benchmarks, one command, one JSON + one LaTeX table:
 
@@ -13,14 +13,14 @@ WHY TIP-F1 (the metric fix): "arms per frame" is not a score — a *lower* count
 output (our anti-mess gates removed ~1.3 duplicate/tangle arms per frame and the count dropped from
 4.80 to 3.48 while quality rose). Precision alone is equally gameable (predict one obvious arm).
 F1 against the human mask's protrusions punishes BOTH over-detection (tangle) and under-detection
-(missed arms), so it is the number the paper should report; arm count stays as a descriptive stat.
+(missed arms), so it is the number to report; arm count stays as a descriptive stat.
 
 Usage:
   venv/bin/python3 src/benchmarks.py --suite all            # everything (slow: ~25 min)
   venv/bin/python3 src/benchmarks.py --suite seg,skel       # pick suites
   venv/bin/python3 src/benchmarks.py --suite skel --refine  # skeleton on SAM2-refined masks
   venv/bin/python3 src/benchmarks.py --suite skel --tag anti_mess_gates   # name the run
-Results append to data/benchmarks.json (keyed by tag); --latex writes the paper table.
+Results append to data/benchmarks.json (keyed by tag); --latex writes the LaTeX table.
 """
 import argparse, json, math, sys, time
 from pathlib import Path
@@ -271,14 +271,14 @@ def main():
     ap.add_argument("--fusion", default="none", choices=["none", "ema", "flow"],
                     help="test-time temporal fusion of the probability map (default none = shipped)")
     ap.add_argument("--tag", default="current")
-    ap.add_argument("--latex", action="store_true", help="also write the paper table")
+    ap.add_argument("--latex", action="store_true", help="also write the LaTeX table")
     ap.add_argument("--latex-from", default=None, metavar="TAG",
-                    help="regenerate the paper table from an existing tag in data/benchmarks.json "
+                    help="regenerate the LaTeX table from an existing tag in data/benchmarks.json "
                          "(no models are run — for table-formatting changes only)")
     args = ap.parse_args()
     if args.latex_from:
         res = json.load(open(RESULTS))[args.latex_from]
-        p = REPO / "OCEANS_2026" / "assets" / "benchmarks_table.tex"
+        p = REPO / "assets" / "benchmarks_table.tex"
         p.write_text(to_latex(res)); print(f"-> {p}  [from tag '{args.latex_from}']")
         return
     suites = ["seg", "skel", "track"] if args.suite == "all" else \
@@ -300,7 +300,7 @@ def main():
     json.dump(all_res, open(RESULTS, "w"), indent=1)
     print(f"\n-> {RESULTS} [{args.tag}]  ({res['_meta']['elapsed_s']}s)")
     if args.latex:
-        p = REPO / "OCEANS_2026" / "assets" / "benchmarks_table.tex"
+        p = REPO / "assets" / "benchmarks_table.tex"
         p.write_text(to_latex(res)); print(f"-> {p}")
 
 

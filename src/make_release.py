@@ -130,7 +130,6 @@ DATASETS = [
 ]
 
 DOCS = [
-    ("OCEANS_2026/octopus_pipeline_oceans2026.pdf", "paper.pdf", "The paper."),
     ("PAPER_NOTES.md", "experimental_record.md",
      "The full chronological ledger, R1-R35, INCLUDING the failed experiments and the conclusions "
      "that were retracted."),
@@ -140,12 +139,12 @@ DOCS = [
 
 README = """# Octopus behaviour pipeline — models and datasets
 
-Accompanies *"From Footage to Ethogram: A Deployable Pipeline for Continuous Behavioural
-Monitoring of a Captive Octopus"* (OCEANS 2026 Monterey). See `docs/paper.pdf`.
+Models, labels and the experimental record for turning raw aquarium video into a behavioural
+time series for a captive octopus.
 
     models/     five deployable models + a card each (MODELS.md)
     datasets/   labels, captions, benchmarks, frozen dataset snapshot
-    docs/       the paper and the full experimental record
+    docs/       the full experimental record
 
 ## Read these three things first
 

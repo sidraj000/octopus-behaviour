@@ -541,7 +541,7 @@ the labels are correct. Speeds are px/s in crop space (no px→cm calibration).
 
 **Paper action taken (2026-08-15):** R12 replaced the n=40 cross-validation everywhere in the .tex
 (abstract, contribution 4, Sec. VI, Fig. 5, limitations). Fig. 5 is now a two-panel figure generated
-by `OCEANS_2026/make_figures.py` **through `src/kinematics_stats.collect` on
+by the figure script **through `src/kinematics_stats.collect` on
 `data/skeleton_motion_study.json`** — the same loader that produced `data/kinematics_stats.json`, so
 the plotted medians are the published medians by construction; it plots per-(video,class) medians,
 not clips. The old 63→159 px/s figures are cited in the paper only as the earlier, less conservative
@@ -747,7 +747,7 @@ now detects and flags gate-determined fields rather than reporting them as excel
 17.6% in condition B.
 
 ## PAPER INTEGRATION LOG — R13/R14/R15 folded into the .tex (2026-08-15)
-What is now cited in `OCEANS_2026/octopus_behaviour_pipeline.tex`, and what is deliberately not.
+What is now cited in the writeup, and what is deliberately not.
 
 **Cited (human-verified only, from `data/presence_human_verified.json` / `data/vlm_reliability_stats.json`):**
 - Sec. V-B, new Table `tab:presence` + three run-in paragraphs: EMPTY-V2 **0.907 [0.826,0.958]**
@@ -845,7 +845,7 @@ clearest quantitative argument for extending to the harvested ~209-day corpus.
 
 ## R18 — Related work: HideAndSeg, and the two motivations the paper was missing (2026-08-19)
 Two load-bearing claims were absent from v1 and are now in **v2**
-(`OCEANS_2026/octopus_behaviour_pipeline_v2.tex`; v1 frozen as the fallback):
+(the v2 draft; v1 frozen as the fallback):
 
 **1. There is no public annotated octopus segmentation dataset.** Never stated, so the entire
 teacher→student architecture was unmotivated. Independently confirmed by HideAndSeg: *"the absence of

@@ -1,13 +1,13 @@
 # Benchmark suite
 
-Three **frozen** benchmarks. Every improvement claim in this project — and every number in the
-OCEANS 2026 paper — is measured here, before and after. Run them all with one command:
+Three **frozen** benchmarks. Every improvement claim in this project is measured here, before and
+after. Run them all with one command:
 
 ```bash
 venv/bin/python3 src/benchmarks.py --suite all --tag <run-name> --latex
 ```
-Results append to `data/benchmarks.json` (keyed by tag); `--latex` writes
-`OCEANS_2026/assets/benchmarks_table.tex` for the paper.
+Results append to `data/benchmarks.json` (keyed by tag); `--latex` also writes a LaTeX table under
+`assets/`.
 
 ## Non-negotiable rules
 1. **Frozen sets.** The frame/clip lists are committed and must not be regenerated to suit a result.
