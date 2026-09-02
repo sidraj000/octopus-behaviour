@@ -13,11 +13,11 @@ __pycache__/
 *.pt
 *.safetensors
 
-# images, except the frozen figure sources
+# images, except the showcase figures
 *.jpg
 *.png
-!paper/assets/**/*.jpg
-!paper/assets/**/*.png
+!docs/showcase/*.jpg
+!docs/showcase/*.png
 
 # latex build products
 *.aux
